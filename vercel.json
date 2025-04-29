@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "buildCommand": false,
+  "buildCommand": null,
   "devCommand": "python3 -m http.server 9090",
   "outputDirectory": ".",
-  "installCommand": false,
+  "installCommand": null,
   "framework": null,
   "routes": [
     { "handle": "filesystem" },
