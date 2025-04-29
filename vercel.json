@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "buildCommand": false,
+  "devCommand": "python3 -m http.server 9090",
+  "outputDirectory": ".",
+  "installCommand": false,
+  "framework": null,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.+)", "dest": "/$1" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+} 

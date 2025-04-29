@@ -1,0 +1,17 @@
+# Source files
+src/
+
+# Development files
+rollup.config.js
+tsconfig.json
+babel.config.json
+CONTRIBUTING.md
+
+# Test files
+tests/
+
+# GitHub files
+.github/
+
+# Don't ignore the lib folder as it contains anime.min.js
+# !lib/ 
