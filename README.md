@@ -122,3 +122,53 @@ Help the project become sustainable by sponsoring us on <a target="_blank" href=
 </table>
 
 © [Julian Garnier](http://juliangarnier.com) | [MIT License](LICENSE.md)
+
+# Agentimate Landing Page
+
+A beautiful, animated landing page for Agentimate - an AI agent that helps with animations and design.
+
+## Features
+
+- Interactive UI with elegant animations using anime.js
+- Dynamic text animations that respond to prompts
+- Real-time component assembly visualization
+- Responsive design for all device sizes
+- Testimonial section with animated cards
+
+## Technologies Used
+
+- HTML5, CSS3
+- JavaScript (ES6+)
+- anime.js for animations
+
+## Demo
+
+The site includes several key sections:
+- Hero section with animated typing
+- Interactive card that responds to text prompts
+- Testimonials from satisfied users
+- Component assembly visualization
+
+## Getting Started
+
+1. Clone this repository
+```
+git clone https://github.com/dhruv1705/agentimatelanding.git
+```
+
+2. Navigate to the project directory
+```
+cd agentimatelanding
+```
+
+3. Start a local server (e.g., using Python)
+```
+python -m http.server 8000
+```
+
+4. Open your browser and visit `http://localhost:8000`
+
+## Credits
+
+- Animations powered by [anime.js](https://animejs.com/)
+- Inspired by modern AI design tool interfaces

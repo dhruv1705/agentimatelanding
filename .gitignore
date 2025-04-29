@@ -1,5 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
 
+# Logs
+logs
 *.log
+npm-debug.log*
 
-node_modules
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build directories
+dist/
+build/
+
+# Cache directories
+.npm/
+.eslintcache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
